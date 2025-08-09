@@ -1,0 +1,6 @@
+{
+  "name": "PhantomV VeilSync",
+  "description": "A single-click, zero-setup desktop app simulation for securely synchronizing browser data via the VeilSync protocol. It demonstrates a futuristic UI based on the PhantomV branding.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

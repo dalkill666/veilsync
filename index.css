@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #02040a;
+  color: #e5e7eb; /* A light gray for default text */
+}
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937; /* Dark gray track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4338ca; /* An indigo color from the theme */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4f46e5; /* Lighter on hover */
+}
